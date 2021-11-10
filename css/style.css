@@ -1,0 +1,90 @@
+
+
+body{
+    background-color: #fafafa;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+}
+nav{ 
+    display: flex;
+    position: static;
+    align-items: center;
+    justify-content: space-between;
+    width: 73%;
+    padding: 20px;
+    background-color: #fafafa;
+    color: #35302d;
+    }
+h1{
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 60px;
+    font-style: thin;
+    width: 750px;
+}
+
+.logo{
+    width: 23%;
+    padding: 5%;
+    }
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+   }
+
+li{
+    display: inline-flex;
+    padding-right: 10%;
+    width: auto;
+    margin-right: 0.5%;
+    padding-left: 5%;
+    margin-left: 0;
+}
+
+#portrait{
+   display: inline-flex;
+   position: absolute;
+   width: 75%;
+   height: 745px;
+   left: 500px;
+   top: 182px;
+}
+
+#content{
+    position: absolute;
+    width: 550px;
+    height: 167px;
+    left: 70px;
+    top:272px;
+    padding: 20px;
+}
+
+button{
+    background-color: #35302d;
+    border: none;
+    color: #fafafa;
+    width: 208px;
+    height: 50px;
+    left: 157px;
+    top: 477px;
+    border-radius: 10px;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+}
+
+footer{
+    position: absolute;
+    left: 20px;
+    bottom: -350px;
+    width: 73%;
+    padding-left: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
