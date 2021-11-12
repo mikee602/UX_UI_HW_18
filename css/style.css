@@ -2,10 +2,6 @@
 
 body{
     background-color: #fafafa;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 100vh;
     font-family: "Lato", sans-serif;
     font-size: 24px;
 }
@@ -24,6 +20,10 @@ h1{
     font-size: 60px;
     font-style: thin;
     width: 750px;
+}
+
+h2{
+    text-align: center;
 }
 
 .logo{
@@ -47,14 +47,13 @@ li{
     margin-left: 0;
 }
 
-#portrait{
-   display: inline-flex;
-   position: absolute;
-   width: 75%;
-   height: 745px;
-   left: 500px;
-   top: 182px;
-}
+.heroImg #portrait {
+    display: static;
+    width: 75%;
+    height: 745px;
+    right: 600px;
+    top: 182px;
+ }
 
 #content{
     position: absolute;
@@ -78,8 +77,37 @@ button{
     font-size: 18px;
 }
 
+.values{
+    display: inline-flex;
+    padding: 10px;
+    margin: 50px;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    text-align: center;
+    background:image("Images/BackgroundTriangle.png");
+    }
+
+.values p{
+    font-size: 18px;
+}
+    
+.skillsContainer{
+    display: inline-flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+
+.skillsContainer #howhelp{
+    width: 33%;
+}
+
+.skillsContainer #spotlight img{
+   align-items: center;
+}
+  
+
 footer{
-    position: absolute;
     left: 20px;
     bottom: -350px;
     width: 73%;
@@ -88,3 +116,4 @@ footer{
     justify-content: space-between;
     align-items: flex-start;
 }
+
